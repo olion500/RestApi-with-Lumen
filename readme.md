@@ -1,20 +1,29 @@
-# Lumen PHP Framework
+# RestAPI with Lumen
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://poser.pugx.org/laravel/lumen-framework/d/total.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/lumen-framework/v/stable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/lumen-framework/v/unstable.svg)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://poser.pugx.org/laravel/lumen-framework/license.svg)](https://packagist.org/packages/laravel/lumen-framework)
+## Notice
+When I want to make restAPI with Lumen, I found the a tutorial. You can see below link.<br />
+https://devnotes.net/rest-api-development-with-lumen-part-one/ <br />
+<br />
+But there is problem. After I download and installed, It always outs <br />
+{<br />
+“status”: 404,<br />
+“message”: “The requested resource was not found”<br />
+}<br />
+And there is some functions like a Mailing service that I don't use it.<br />
+<br />
+So I recreate the project step by step, finding a trouble.<br />
+Finally It works!!<br />
+It's helpful to follow the README in original project.<br />
+https://github.com/hasib32/rest-api-with-lumen<br />
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## Environment
+Lumen (5.4.7) (Laravel Components 5.4.*)<br />
+PHP 5.6.25<br />
+MySQL 5.7.14<br />
 
 ## Official Documentation
 
 Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 
