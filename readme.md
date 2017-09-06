@@ -21,6 +21,10 @@ Lumen (5.4.7) (Laravel Components 5.4.*)<br />
 PHP 5.6.25<br />
 MySQL 5.7.14<br />
 
+## Troubleshooting
+### When the pages show '404 page not found'<br />
+replace 'AllowOverride None' to 'AllowOverride All' on /etc/httpd/conf file.
+
 ## Official Documentation
 
 Documentation for the framework can be found on the [Lumen website](http://lumen.laravel.com/docs).
